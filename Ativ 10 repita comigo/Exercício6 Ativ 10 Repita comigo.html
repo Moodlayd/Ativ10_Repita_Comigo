@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="Pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.6</title>
+</head>
+<body>
+    <script>
+        /*6 - Escreva um programa para ler 2 notas de um aluno, calcular e imprimir a média final. Logo após escrever a mensagem "Calcular a média de outro aluno Sim/Não?" e solicitar um resposta. Se a resposta for "S", o programa deve ser executado novamente, caso contrário deve ser encerrado exibindo a quantidade de alunos aprovados.*/
+
+        
+        var nota = parseInt(prompt(" Digite a primeira  nota "));
+        var nota2 = parseInt(prompt("Digite a segunda nota "));
+        var media = 0;
+        var cont = 0;
+
+        media = ( nota + nota2 ) /2;
+            if(media >= 9,5){
+                cont++;
+            };
+            var outro = prompt("Calcular a nota de um mais um aluno? Sim/Não?")
+            
+            while (outro == "Sim"){
+                var nota = parseInt(prompt("Digite a primeira nota"));
+                var nota2 = parseInt(prompt("Digite a segunda nota"));
+                media = ( nota + nota2) / 2;
+                if (media > 9,5){
+                    cont++;
+                }else{
+                    (media < 9,5)
+                    { cont--;
+                        
+
+                    };
+                };
+                outro = prompt ("Calcular a nota de um novo aluno? Sim/Não?");
+            
+            }
+         alert ("Alunos que foram aprovados " + cont);
+
+
+        
+   </script>
+   </body>
+</html>
